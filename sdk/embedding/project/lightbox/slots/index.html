@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.1.1">
 <title data-rh="true">Custom Lightbox Trigger | Smartzer Docs</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://smrtzr.github.io/sdk/embedding/project/lightbox/slots"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Custom Lightbox Trigger | Smartzer Docs"><meta data-rh="true" name="description" content="You can customise the appearance of the lightbox trigger and the lightbox itself by using &quot;slots&quot;."><meta data-rh="true" property="og:description" content="You can customise the appearance of the lightbox trigger and the lightbox itself by using &quot;slots&quot;."><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://smrtzr.github.io/sdk/embedding/project/lightbox/slots"><link data-rh="true" rel="alternate" href="https://smrtzr.github.io/sdk/embedding/project/lightbox/slots" hreflang="en"><link data-rh="true" rel="alternate" href="https://smrtzr.github.io/sdk/embedding/project/lightbox/slots" hreflang="x-default"><link rel="stylesheet" href="/assets/css/styles.a80cd550.css">
-<script src="/assets/js/runtime~main.3905574c.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.d1923036.js" defer="defer"></script>
 <script src="/assets/js/main.55172347.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -19,11 +19,11 @@
 <ul>
 <li><code>lightboxTrigger</code> - this is the element we will attach the <code>onclick</code> event to open the lightbox</li>
 <li><code>triggerImage</code> - this is the element we will apply the project thumbnail to</li>
-<li><code>textRow1</code> - this is the element we will add the first</li>
-<li><code>textRow2</code> - this is the element we will apply the project description to</li>
-<li><code>textRow3</code> - this is the element we will apply the project price to</li>
-<li><code>textRow4</code> - this is the element we will apply the project brand to</li>
-<li>Livestream projects with a start time only<!-- -->
+<li><code>textRow1</code> - this is the element we will add the first row of the &quot;title&quot; determined by the <code>lightboxTriggerTextSource</code> attribute</li>
+<li><code>textRow2</code> - this is the element we will add the second row of the &quot;title&quot; determined by the <code>lightboxTriggerTextSource</code> attribute (if it exists)</li>
+<li><code>textRow3</code> - this is the element we will add the third row of the &quot;title&quot; determined by the <code>lightboxTriggerTextSource</code> attribute (if it exists)</li>
+<li><code>textRow4</code> - this is the element we will add the fourth row of the &quot;title&quot; determined by the <code>lightboxTriggerTextSource</code> attribute (if it exists)</li>
+<li>If you are embedding a livestream project, and it has a countdown timer, then you can use the following slots:<!-- -->
 <ul>
 <li><code>countdownDays</code> - this is the element we will apply the days remaining to</li>
 <li><code>countdownHours</code> - this is the element we will apply the hours remaining to</li>
